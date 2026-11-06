@@ -1,0 +1,19 @@
+{
+  "name": "decodelabs-p4-third-party-api-integration",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DecodeLabs Industrial Training Kit — Project 4: Third-Party API Integration (Open-Meteo, async fetch, response reformatting)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
